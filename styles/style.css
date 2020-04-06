@@ -1,11 +1,22 @@
 html {
+  transition: background-image 3s;
 	font-size: 30px;
 	font-family: 'Baloo Chettan 2', cursive;
-	background-color: #7F3FBF
+	background-color: #7F3FBF;
+}
+
+header {
+  background-color: #ff00aa;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+
+a {
+  color: #ffffff;
 }
 
 body {
-  width: 600px;
+  width: 450px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
@@ -16,19 +27,44 @@ h1 {
   margin: 0;
   padding: 20px 0; 
   text-shadow: 3px 3px 1px black;
-  font-size: 60px;
+  font-size: 36px;
   color: #7F3FBF;
   text-align: center;  
 }
 
-p, li {
+h2 {
+  margin: 0;
+  padding: 20px 0; 
+  text-shadow: 3px 3px 1px black;
+  font-size: 20px;
+  color: #7F3FBF;
+  text-align: center;  
+}
+
+h3 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #7F3FBF;
+  text-align: center;  
+}
+
+
+p {
+  font-size: 16px;    
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+li {
   font-size: 16px;    
   line-height: 2;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 img {
   display: block;
   margin: 0 auto;
-  width: 400px;
+  width: 350px;
+  max-height: 500px;
 }
