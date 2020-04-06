@@ -18,7 +18,7 @@ function setUserName() {
   myHeading.textContent = myName + ' убийца';
 }
 
-if(!localStorage.getItem('name')) {
+if(localStorage.getItem('name') === "null") {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
